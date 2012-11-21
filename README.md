@@ -10,7 +10,7 @@ Usage
 -----
 **Work in progress - only insertion of points is currently supported.**
 
-    Birch::Config.new(
+    config = Birch::Config.new(
       2,                # number of dimensions of data points
       :manhattan,       # distance metric, only :manhattan is supported currently
       5.0,              # distance treshold
